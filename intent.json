@@ -1,0 +1,40 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "morning",
+        "patterns": ["good morning", "morning"],
+        "responses": ["Good morning, Have a nice day.", "Good morning, nice to hear that.", "Good morning, nice to meet you."]
+        },
+        {"tag": "afternoon",
+        "patterns": ["good afternoon", "afternoon"],
+        "responses": ["Good afternoon, Have a nice day.", "Good afternoon, nice to hear that.", "Good afternoon, nice to meet you."]
+        },
+        {"tag": "evening",
+        "patterns": ["good evening", "evening"],
+        "responses": ["Good evening, Have a nice day.", "Good evening, nice to hear that.", "Good evening, nice to meet you."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "tass",
+         "patterns": ["What is TASS?", "What tass does?", "Tell me more about TASS?", "tass?" ],
+         "responses": ["It's a platflorm where hospital staffs can be schedule.", "TASS helps the hospital to efficently schedule it's staffs."]
+        },
+        {"tag": "time off",
+        "patterns": ["What is time off?", "time off?", "Tell me about time off?", "Tell me more about time off?" ],
+        "responses": ["When an employee takes a leave, it is called as time off.", "Employee taking a leave is called time off."]
+        },
+        {"tag": "trade request",
+        "patterns": ["What is trade request?", "trade request?", "Tell me about trade request?", "Tell me more about trade request?" ],
+        "responses": ["When an employee raises a request for exchanging his shift with another, it is called as trade request.", "Employee requesting for trading his shift with another empployee, is known as trade request."]
+        }
+   ]
+}

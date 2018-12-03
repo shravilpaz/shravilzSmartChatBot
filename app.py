@@ -5,8 +5,8 @@ import pickle
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 import numpy as np
-import tflearn
 import tensorflow as tf
+import tflearn
 import random
 stemmer = LancasterStemmer()
 data = pickle.load( open( "training_data", "rb" ) )
